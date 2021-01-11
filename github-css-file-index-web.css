@@ -1,0 +1,94 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+
+* {
+  margin-left: 2px;
+  margin-right: 2px;
+
+}
+
+.wrapper {
+  width: 100%;
+}
+h1 {
+    color: rgb(74, 12, 112);
+    font-size: 30px;
+}
+article {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 10px;
+}
+.image {
+  width: 93%;
+  border: 1.4mm solid rgb(0, 0, 0);
+}
+.head-top {
+  font-weight: bold;
+  padding-bottom: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imp {
+  color: rgb(199, 112, 78);
+  font-style: italic;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 65%;
+    margin: 0 auto
+  }
+  h1 {
+      font-size: 37px;
+    }
+    article {
+      font-size: 17px;
+    }
+    .image {
+      margin-left: 11px;
+      width: 90%;
+      border: 1.8mm solid rgb(0, 0, 0);
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 900px;
+    margin: 0 auto;
+  }
+  h1 {
+      color: rgb(74, 12, 112);
+      padding-bottom: 18px;
+      font-size: 30px;
+  }
+  article {
+    width: 50%;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .image {
+    margin-top: 45px;
+    width: 44%;
+    border: 1.8mm solid rgb(0, 0, 0);
+    float: right;
+  }
+  .head-top {
+    font-weight: bold;
+    padding-bottom: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .imp {
+    color: rgb(199, 112, 78);
+    font-style: italic;
+  }
+}
